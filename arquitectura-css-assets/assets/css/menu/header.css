@@ -1,0 +1,43 @@
+.header{
+    background-color: #f9f9f9;
+    width: 100%;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-lista{
+    display: flex;
+    list-style: none;
+}
+
+.menu-link{
+    color: #808080;
+    text-decoration: none;
+    margin-right: 20px;
+    padding-bottom: 3px;
+    user-select: none;
+}
+
+.menu-link:hover{
+    border-bottom: 2px solid rgb(21, 184, 148);
+}
+
+.activo{
+    color: #333;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width:768px){
+    .menu{
+        justify-content: center;
+    }
+
+    .logo{
+        display: none;
+    }
+}

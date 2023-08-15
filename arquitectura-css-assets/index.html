@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <meta name="author" content="Nicolas Huanca"/>
+        <meta name="keywords" content="HTML, CSS, BEM"/>
+        <title>Fruta & Fruto</title>
+        <link rel="shortcut icon" href="./assets/img/icono.png" type="image/x-icon">
+        <link rel="stylesheet" href="./assets/css/normalize.css"/>
+        <link rel="stylesheet" href="./assets/css/reset.css"/>
+        <link rel="stylesheet" href="./assets/css/menu/header.css"/>
+        <link rel="stylesheet" href="./assets/css/banner/banner.css"/>
+        <link rel="stylesheet" href="./assets/css/recetas/recetas.css"/>
+        <link rel="stylesheet" href="./assets/css/sobre/sobre.css"/>
+        <link rel="stylesheet" href="./assets/css/quienesSomos/quienesSomos.css"/>
+        <link rel="stylesheet" href="./assets/css/footer/footer.css"/>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="menu">
+                <img class="logo" src="./assets/img/logo.jpg" alt="">
+                <ul class="menu-lista">
+                    <li class="menu-item"><a class="menu-link activo" href="#">Inicio</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#recetas">Recetas</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#quienes-somos">Quienes somos</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+
+        <!--banner-->
+        <section class="banner">
+            <img class="banner-img" src="./assets/img/banner.jpg" alt="banner">
+            <h2 class="banner-titulo">Aproveche mejor los alimentos</h2>
+        </section>
+
+        <!--sobre-->
+        <section class="sobre">
+            <h2 class="sobre-titulo">Recetas para economizar y beneficiar su salud</h2>
+            <p class="sobre-descripcion">Nuestras recetas te ayudan a aprovechar mejor los alimentos, economizar, ganar tiempo y practicidad!!!</p>
+        </section>
+
+        <!--recetas-->
+        <section id="recetas" class="recetas">
+            <div class="receta">
+                <img alt="Tigela de abacate" class="receta__imagen" src="./assets/img/recetas/bowl-de-aguacate.jpg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Bowl de aguacate</h4>
+                    <p class="receta__descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="Ensalada de kiwi" class="receta__imagen" src="./assets/img/recetas/ensalada-de-kiwi.jpg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Ensalada a base de kiwi</h4>
+                    <p class="receta__descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="Mix de vegetales" class="receta__imagen" src="./assets/img/recetas/mix-de-vegetales.jpg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Especial Mix de vegetales</h4>
+                    <p class="receta__descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="Pimentones a la Juliana" class="receta__imagen" src="./assets/img/recetas/pimentones-a-la-juliana.jpg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Pimentones a la Juliana</h4>
+                    <p class="receta__descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="Plato oriental" class="receta__imagen" src="./assets/img/recetas/plato-oriental.jpg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Plato de origen oriental</h4>
+                    <p class="receta__descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+            <div class="receta">
+                <img alt="Remolachas horneadas" class="receta__imagen" src="./assets/img/recetas/remolachas-horneadas.jpg" />
+                <div class="receta__contenido">
+                    <h4 class="receta__titulo">Remolachas horneadas</h4>
+                    <p class="receta__descripcion">Receta refrescante y llena de vitaminas para su desayuno.</p>
+                    <button class="receta__boton">Ver receta</button>
+                </div>
+            </div>
+        </section>   
+
+        <!--Quienes somos-->
+        <section id="quienes-somos" class="quienes-somos">
+            <h3 class="quienes-somos__titulo">Quienes somos</h3>
+            <p class="quienes-somos__descripcion">Conozca a las personas detrás de este proyecto</p>
+            <div class="personas">
+                <div class="persona">
+                    <div class="persona__imagen"><img class="persona__imagen-nombre" src="./assets/img/personas/roberta.jpg" alt=""></div>
+                    <span class="persona__nombre">Laura</span>
+                    <span class="persona__funcion">Contenido</span>
+                </div>
+                <div class="persona">
+                    <div class="persona__imagen"><img class="persona__imagen-nombre" src="./assets/img/personas/marcela.jpg" alt=""></div>
+                    <span class="persona__nombre">Estefania</span>
+                    <span class="persona__funcion">Chef</span>
+                </div>
+                <div class="persona">
+                    <div class="persona__imagen"><img class="persona__imagen-nombre" src="./assets/img/personas/andrea.jpg" alt=""></div>
+                    <span class="persona__nombre">Andrea</span>
+                    <span class="persona__funcion">Auxiliar de Cocina</span>
+                </div>
+            </div>
+        </section>
+        
+        </section>
+    </body>
+
+    <!--footer-->
+    <footer class="pie-de-pagina">
+        <p class="link"><a class="link-footer" href="#">Ir al inicio</a></p>
+    </footer>
+
+</html>

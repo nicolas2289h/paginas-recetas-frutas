@@ -1,0 +1,77 @@
+.quienes-somos{
+    padding: 40px 0;
+    text-align: center;
+}
+
+.quienes-somos__descripcion{
+    color: #595959;
+    font-size: 1.75rem;
+    font-weight: 100;
+}
+
+.quienes-somos__titulo{
+    color: rgb(13, 156, 175);
+    font-size: 3rem;
+    font-family: Pacifico, cursive;
+    margin-bottom: 1rem;
+}
+
+.personas{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    
+}
+
+.persona{
+    display: flex;
+    flex-direction: column;
+}
+
+.persona__imagen{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.persona__imagen-nombre{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.persona__nombre{
+    color: rgb(13, 156, 175);
+    font-family: Pacifico, cursive;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.persona__funcion{
+    color: #595959;
+    font-size: 1.25rem;
+    text-transform: lowercase;
+}
+
+
+@media screen and (max-width:768px){
+    .quienes-somos{
+        padding: 40px 10px 0 10px;
+    }
+
+    .quienes-somos__titulo{
+        font-size: 32px;
+    }
+
+    .quienes-somos__descripcion{
+        font-size: 25px;
+    }
+
+    .personas{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .persona{
+        margin-bottom: 3rem;
+    }
+}

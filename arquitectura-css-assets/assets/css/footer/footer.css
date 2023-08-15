@@ -1,0 +1,21 @@
+.pie-de-pagina{
+    background-color: #e5e5e5;        
+    color: #fdfdfd;
+    text-align: right;
+    padding: 1.5rem 5rem;
+    color: #595959;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link-footer{
+    color: #666666;
+    text-decoration: none;
+    user-select: none;
+}
+
+/* @media screen and (max-width:768px){
+    .pie-de-pagina{
+        text-align: center;
+    }
+} */
